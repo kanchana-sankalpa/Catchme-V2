@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: e2e471322c03cb44785f66502820ec55
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body
+    100002: Chest
+    100004: Head
+    100006: Head_end
+    100008: LowerMouth
+    100010: LowerMouth_end
+    100012: Mouth
+    100014: Neck
+    100016: PoleTarget
+    100018: PoleTarget_end
+    100020: Root
+    100022: //RootNode
+    100024: Snake
+    100026: SnakeArmature
+    100028: Tail
+    100030: Tail1
+    100032: Tail2
+    100034: Tail3
+    100036: Tail3_end
+    100038: Tongue1
+    100040: Tongue2
+    100042: Tongue3
+    100044: Tongue3_end
+    400000: Body
+    400002: Chest
+    400004: Head
+    400006: Head_end
+    400008: LowerMouth
+    400010: LowerMouth_end
+    400012: Mouth
+    400014: Neck
+    400016: PoleTarget
+    400018: PoleTarget_end
+    400020: Root
+    400022: //RootNode
+    400024: Snake
+    400026: SnakeArmature
+    400028: Tail
+    400030: Tail1
+    400032: Tail2
+    400034: Tail3
+    400036: Tail3_end
+    400038: Tongue1
+    400040: Tongue2
+    400042: Tongue3
+    400044: Tongue3_end
+    2100000: DarkGreen
+    2100002: LightGreen
+    2100004: Red
+    2100006: Teeth
+    2100008: Purple
+    2100010: Yellow
+    2100012: DarkRed
+    4300000: Snake
+    7400000: SnakeArmature|Snake_Attack
+    7400002: SnakeArmature|Snake_Idle
+    7400004: SnakeArmature|Snake_Jump
+    7400006: SnakeArmature|Snake_Walk
+    9500000: //RootNode
+    13700000: Snake
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperArm' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: SnakeArmature
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Tail
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mouth
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Tail1
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Tongue1
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Tail2
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Tongue2
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Body
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Tongue3
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Tongue3
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Snake(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake
+      parentName: Snake(Clone)
+      position: {x: 9.5352225e-26, y: 0.022403583, z: -0.027790073}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: SnakeArmature
+      parentName: Snake(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Root
+      parentName: SnakeArmature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0.00000016858743, z: -0.0000001685874, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: Root
+      position: {x: 0.0006397734, y: 0.010372523, z: -0.0030048233}
+      rotation: {x: -0.73959416, y: -0.000000079803364, z: 0.008657379, w: 0.6729974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest
+      parentName: Body
+      position: {x: 0.000114111135, y: -0.0055001914, z: 0.009748347}
+      rotation: {x: 0.55509496, y: -0.20416744, z: -0.14174198, w: 0.793785}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+    - name: Neck
+      parentName: Chest
+      position: {x: -1.11758706e-10, y: 0.008788994, z: 2.7939676e-10}
+      rotation: {x: -0.004187375, y: 0.25453764, z: -0.002038761, w: 0.9670516}
+      scale: {x: 0.9999999, y: 0.99999976, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -5.122274e-11, y: 0.008236595, z: -0.0000000015669502}
+      rotation: {x: 0.038335875, y: 0.79275477, z: 0.6045102, w: 0.0681008}
+      scale: {x: 1, y: 0.99999946, z: 0.99999976}
+    - name: Head_end
+      parentName: Head
+      position: {x: -0, y: 0.0069715194, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail
+      parentName: Root
+      position: {x: 0.0006924509, y: 0.0037900151, z: 0.0038751566}
+      rotation: {x: -0.9905553, y: 0.027775249, z: 0.08235051, w: 0.106052525}
+      scale: {x: 1, y: 0.9999999, z: 0.9999997}
+    - name: Tail1
+      parentName: Tail
+      position: {x: -4.302083e-12, y: 0.0047899154, z: -1.0419171e-10}
+      rotation: {x: 0.13136221, y: 0.00049107854, z: -0.0022765698, w: 0.9913317}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: Tail2
+      parentName: Tail1
+      position: {x: 8.978107e-11, y: 0.004905116, z: -1.8335412e-10}
+      rotation: {x: 0.5188639, y: -0.007673956, z: -0.019755086, w: 0.8545941}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Tail3
+      parentName: Tail2
+      position: {x: -4.11319e-11, y: 0.0035821192, z: 1.9700618e-10}
+      rotation: {x: -0.029959593, y: -1.3032052e-10, z: 5.512239e-10, w: 0.9995511}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Tail3_end
+      parentName: Tail3
+      position: {x: -0, y: 0.004376293, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PoleTarget
+      parentName: Root
+      position: {x: 0.00006527484, y: 0.026267447, z: 0.04365327}
+      rotation: {x: 0, y: -0.00000011920932, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PoleTarget_end
+      parentName: PoleTarget
+      position: {x: -0, y: 0.0030912089, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mouth
+      parentName: Root
+      position: {x: 0.00007805887, y: 0.025195884, z: 0.0040258984}
+      rotation: {x: 0.018330649, y: 0.23103844, z: 0.97255045, w: -0.020758346}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: LowerMouth
+      parentName: Mouth
+      position: {x: -0.00000735061, y: 0.0017982146, z: -0.0011794766}
+      rotation: {x: -0.18678674, y: 0.0030607982, z: 0.0005821035, w: 0.9823955}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: LowerMouth_end
+      parentName: LowerMouth
+      position: {x: -0, y: 0.0066668955, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tongue1
+      parentName: Mouth
+      position: {x: -0.000031911168, y: 0.0043453714, z: -0.0011932631}
+      rotation: {x: -0.00060941605, y: 0.98064125, z: -0.19578832, w: -0.0030591113}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: Tongue2
+      parentName: Tongue1
+      position: {x: -1.3687895e-12, y: 0.0031961165, z: 1.0866969e-10}
+      rotation: {x: -0.026350413, y: 0.6855543, z: -0.7275439, w: 0.0009287648}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Tongue3
+      parentName: Tongue2
+      position: {x: -1.9326763e-14, y: 0.0024648898, z: 0.0000000016145602}
+      rotation: {x: 0.19129495, y: -0.0000006595053, z: 0.00000047044946, w: 0.98153263}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: Tongue3_end
+      parentName: Tongue3
+      position: {x: -0, y: 0.0026831797, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
